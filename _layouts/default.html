@@ -21,5 +21,10 @@
 				{{ content }}
 			</section>
 		</div>
+		{% assign author = site.authors.thgab %}
+		<footer>
+			<img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40" />
+			<p>{{ author.display_name }}</p>
+		</footer>
     </body>
 </html>

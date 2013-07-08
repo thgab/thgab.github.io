@@ -2,3 +2,11 @@ name: thgab.github.io
 safe: true
 lsi: safe
 pygments: true
+authors:
+  thgab:
+    display_name: thgab
+    gravatar: 68f4651f73880c72b92cce041783da97
+    email: thgab74@gmail.com
+    web: http://thgab.com/
+    twitter: thgab
+    github: thgab
