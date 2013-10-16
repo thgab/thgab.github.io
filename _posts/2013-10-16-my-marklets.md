@@ -14,6 +14,7 @@ share: true
 published: true
 ---
 
+
 Munkavédelmi "Megoldom" ellenőrző gomb
 
 <div markdown="0"><a onclick="window.alert('Egyszerűen csak húzd a linket az eszköztárra és használd a megfelelő weboldalon :) ...');return false;"  href="javascript:(function(){for(var a=document.getElementsByTagName(&quot;input&quot;),b=0;b&lt;a.length;b++)&quot;radio&quot;==a[b].type&amp;&amp;0&lt;a[b].value&amp;&amp;(a[b].checked=&quot;checked&quot;);})();" class="btn btn-success">Megoldom</a></div>
