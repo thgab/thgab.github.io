@@ -40,3 +40,20 @@ build:
           User-agent: *
           Allow: /
           Sitemap: http://born2code.net/sitemap.xml
+deploy :
+  steps :
+    - script:
+        name: Configure git
+        code: |-
+          git config --global user.email "thgab74@gmail.com.com"
+          git config --global user.name "thgab"
+
+          # remove current .git folder
+          rm -rf .git
+    - script:
+        name: Deploy to github pages
+        code: |-
+          git init
+          git add .
+          git commit -m "deploy commit from $WERCKER_STARTED_BY"
+          git push -f $GIT_REMOTE master:gh-pages
