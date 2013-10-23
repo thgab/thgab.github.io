@@ -1,6 +1,6 @@
-title:            thgab.github.io
-description:      Describe your website here.
-disqus_shortname: thgabgithub
+title:            blog.thgab.com
+description:      my blog
+disqus_shortname: thgablog
 #Comment out url when working locally to resolve base urls correctly
 url:              http://blog.thgab.com
 
