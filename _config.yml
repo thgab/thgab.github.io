@@ -2,7 +2,7 @@ title:            thgab.github.io
 description:      Describe your website here.
 disqus_shortname: thgabgithub
 #Comment out url when working locally to resolve base urls correctly
-url:              http://thgab.github.io
+url:              http://blog.thgab.com
 
 # Owner/author information
 owner:
