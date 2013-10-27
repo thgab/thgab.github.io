@@ -1,0 +1,36 @@
+box: wercker/nodejs
+# Build definition
+build:
+  # The steps that will be executed on build
+  steps:
+    # A step that executes `npm install` command
+    - npm-install
+    # A step that executes `npm test` command
+    - npm-test
+    # A step that executes `grunt` command
+    - grunt
+
+    # A custom script step, name value is used in the UI
+    # and the code value contains the command that get executed
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+deploy :
+  steps :
+    - script:
+        name: Configure git
+        code: |-
+          git config --global user.email "thgab74@gmail.com"
+          git config --global user.name "thgab"
+
+          # remove current .git folder
+          rm -rf .git
+    - script:
+        name: Deploy to github pages
+        code: |-
+          git init
+          git add .
+          git commit -m "deploy commit from $WERCKER_STARTED_BY"
+          git push -f ${GIT_REMOTE}thgab.github.io.git
