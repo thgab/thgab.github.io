@@ -2,7 +2,8 @@
 layout: post
 title: Hasznos bookmarkletek
 description: Segítség a mindennapokban
-modified: {}
+modified: 2014-06-12
+categories: tools
 tags: 
   - bookmarklet
 image: 
