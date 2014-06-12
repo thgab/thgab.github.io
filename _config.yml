@@ -9,21 +9,20 @@ markdown: kramdown
 
 # The title and tagline is showed on homepage
 #
-title :  Simpleyyt 
-tagline: Yitao's Blog
+title :  blog.thgab.com 
+tagline: thgab's blog
 
 # Information about author
 #
 author :
-  name : Yitao Yao
+  name : thgab
   
 # Information for contacts
 #
 contact :
-  e-mail : mailto:simpleyyt@gmail.com
-  Github : https://github.com/Simpleyyt
-  WeiBo : http://www.weibo.com/u/1836017133
-  Google+ : https://plus.google.com/103860633659538888207?rel=author
+  e-mail : mailto:thgab74@gmail.com
+  Github : https://github.com/thgab
+  Google+ : https://plus.google.com/105870220434790862377?rel=author
   
 # Links showed on the footer
 #
@@ -48,7 +47,7 @@ search :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://simpleyyt.github.io
+production_url : http://blog.thgab.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -105,11 +104,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : simpleyyt
+    provider : disqus
     disqus :
-      short_name : simpleyyt
+      short_name : thgabgithub
     livefyre :
       site_id : 123
     intensedebate :
